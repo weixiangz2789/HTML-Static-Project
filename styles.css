@@ -1,5 +1,6 @@
 body {
   font-family: "Monaco", monospace;
+  margin: 0;
 }
 table,
 th,
@@ -17,6 +18,7 @@ nav {
 img {
   width: 400px;
   height: auto;
+  padding: 25px;
 }
 h1 {
   max-width: auto;
@@ -42,4 +44,10 @@ a {
 }
 footer {
   font-size: 25px;
+}
+span {
+  padding: 25px;
+}
+.example {
+  display: inline;
 }
