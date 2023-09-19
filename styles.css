@@ -1,6 +1,7 @@
 body {
   font-family: "Monaco", monospace;
   margin: 0;
+  font-size: 25px;
 }
 table,
 th,
@@ -32,10 +33,6 @@ h1 {
   text-align: center;
   position: relative;
 }
-p,
-ul {
-  font-size: 25px;
-}
 a {
   color: white;
   background-color: transparent;
@@ -47,6 +44,7 @@ footer {
 }
 span {
   padding: 25px;
+  size: 300px;
 }
 .example {
   display: inline;
