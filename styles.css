@@ -1,10 +1,45 @@
+body {
+  font-family: "Monaco", monospace;
+}
 table,
 th,
 td {
   border: 1px solid black;
   size: auto;
 }
+nav {
+  font-size: 30px;
+  padding: 10px;
+  margin: 0;
+  background-color: #4169e1;
+  font-weight: 100;
+}
 img {
   width: 400px;
   height: auto;
+}
+h1 {
+  max-width: auto;
+  height: 200px;
+  background-color: #4169e1;
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  position: relative;
+}
+p,
+ul {
+  font-size: 25px;
+}
+a {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  padding: 5px;
+}
+footer {
+  font-size: 25px;
 }
