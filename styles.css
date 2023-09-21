@@ -50,6 +50,7 @@ nav li a {
   background-color: #3d4c83;
   position: flex;
   flex-wrap: wrap;
+  padding: 20px;
   padding-top: 22%;
   float: right;
   height: 100vh;
