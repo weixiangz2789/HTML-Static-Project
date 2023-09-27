@@ -8,45 +8,61 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <nav class="links">
-      <ul>
-        <li id="copyright">&copy;</li>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="favorites.html">Favorites</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="spots.html">Spots</a></li>
-      </ul>
-    </nav>
-    <div>
-      <!-- Here is a table of good places in NYC -->
-      <table>
-        <tr>
-          <td>
-            <video controls>
-              <source src="" type="" />
-              Video Unsupported
-            </video>
-          </td>
-          <td>insert location here</td>
-          <td>insert explanation here</td>
-        </tr>
-
-        <tr>
-          <td>
-            <img
-              src="images\C202108-T-Qiao-Lin-Hotpot-broths.jpg"
-              alt="hotpot"
-            />
-          </td>
-          <td>insert location here</td>
-          <td>insert explanation here</td>
-        </tr>
-        <tr>
-          <td><img src="" alt="" /></td>
-          <td>insert location here</td>
-          <td>insert explanation here</td>
-        </tr>
-      </table>
+    <div class="hero">
+      <nav class="links">
+        <ul>
+          <li id="copyright">&copy;</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="favorites.html">Favorites</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="spots.html">Spots</a></li>
+        </ul>
+      </nav>
+      <div class="page4">
+        <!-- Table of places I like in NYC, list of what I don't like and a form-->
+        <h1>Spots I enjoy in NYC</h1>
+        <table>
+          <tr>
+            <td>
+              <img
+                src="images/taiwan-bear-house.jpg"
+                alt="Taiwan Bear House"
+                class="page4"
+              />
+            </td>
+            <td>Taiwan Bear House, 11 Pell St, New York, NY 10013</td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="images/nanxiang.webp"
+                alt="Nan Xiang Express"
+                class="page4"
+              />
+            </td>
+            <td>Nan Xiang Express, 167 Grand St, Brooklyn, NY 11249</td>
+          </tr>
+          <tr>
+            <td><img src="images/chunkyboss.jpg" alt="" class="page4" /></td>
+            <td>CHUNKY BOSS, 129 E 45th St, New York, NY 10017</td>
+          </tr>
+        </table>
+        <div class="badlist">
+          <h2>Not So Great Things:</h2>
+          <ul>
+            <li>MTA...</li>
+            <li>Trash Everywhere</li>
+            <li>Very Crowded City</li>
+          </ul>
+        </div>
+        <div class="additionalform">
+          <form>
+            <label for="name">Other Spots:</label>
+            <input type="text" id="name" name="name" /><br /><br />
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
     </div>
   </body>
 </html>

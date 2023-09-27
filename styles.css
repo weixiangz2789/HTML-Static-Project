@@ -35,6 +35,10 @@ nav li a {
   background-color: #f78888;
   height: 120vh;
 }
+.about#page3 {
+  background-color: #479761;
+  height: 120vh;
+}
 
 .about h1 {
   color: #fff;
@@ -64,6 +68,32 @@ nav li a {
   text-align: left;
   width: 60%;
 }
+.description#page3 {
+  background-color: #5ed383;
+  display: flex;
+  position: flex;
+  padding: 20px;
+  float: right;
+  height: 120vh;
+  text-align: left;
+  width: 60%;
+}
+.page4 {
+  background-color: #a8d0e6;
+  position: flex;
+  padding: 20px;
+  height: 150vh;
+  text-align: left;
+  width: 100%;
+  color: #fff;
+}
+.page4 h1 {
+  padding-left: 25px;
+  font-size: 35px;
+}
+.page4 h2 {
+  font-size: 35px;
+}
 .description div {
   display: flex;
   align-items: center;
@@ -78,6 +108,23 @@ img {
   height: 300px;
   padding: 25px;
 }
-/* .videotag{
-  padding: 30px;
-} */
+video {
+  width: 300px;
+}
+audio {
+  width: 300px;
+}
+img.page4 {
+  width: 500px;
+  height: auto;
+}
+.badlist {
+  padding: 25px;
+}
+.badlist ul {
+  padding-left: 25px;
+}
+.additionalform {
+  padding-left: 25px;
+  display: inline-block;
+}
